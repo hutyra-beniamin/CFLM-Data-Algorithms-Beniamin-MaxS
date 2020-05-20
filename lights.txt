@@ -1,0 +1,47 @@
+INPUT
+var lights = 11;12;13;21;22;23;31;32;33;
+var steets = (N1;N2;N2),(E1;E2;E2),(S1;S2;S2),(W1;W2;W2)
+var $container = combined action in 10 sec delay 
+
+var value lights : {
+                    r - red
+                    o - orange ( please remember your driving course)
+                    g - green
+} 
+ 
+ "Green Waves"
+
+
+Endless Loop
+
+Direction from N to S and form S to N
+ 1.  0:00-0:10 sekunden 
+    var 11-g
+    var 21-o
+    var 31-r
+            2. 0:10-0:20 sekunden 
+            var 11-o
+            var 21-g
+            var 31-o
+                    3. 0:20-0:30 sekunden  
+                    var 11-r
+                    var 21-o
+                    var 31-g
+    
+
+     
+    
+Direction form W to E and from E to W
+
+                            4. 0:20-0:30 sekunden  
+                                var 11-g
+                                var 21-o
+                                var 31-r
+                                        5.0:30-0:10 sekunden 
+                                        var 11-o
+                                        var 21-g
+                                        var 31-o
+                                                6.0:10-0:20 sekunden 
+                                                var 11-r
+                                                var 21-o
+                                                var 31-g
